@@ -1,3 +1,5 @@
+"use strict";  // treat all js code as newer version
+
 let string = "this is string";
 let number = 33;
 let accountIsLoggedIn = false; // this is boolean data type; this has either true or false value;

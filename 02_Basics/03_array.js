@@ -23,3 +23,14 @@ for(let i =1; i<arrayofnumber.length; i++){
 }
 
 console.log(max);
+
+
+const newArray = [13, 43, 32, 53, 1, 54, 65,76];
+let min = newArray[0];
+for(let i = 1; i<newArray.length; i++){
+    if(min>newArray[i]){
+        min = newArray[i];
+    }
+}
+
+console.log(min);

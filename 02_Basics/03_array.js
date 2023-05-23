@@ -34,3 +34,4 @@ for(let i = 1; i<newArray.length; i++){
 }
 
 console.log(min);
+console.log(newArray.sort());

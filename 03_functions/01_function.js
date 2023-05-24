@@ -45,5 +45,40 @@ ask(question(undefined));
 
 
 
+// what if we pass object as the parameter to the function ;
+
+// it will change the object property after the function is called;
+
+function changeSome(theObject){
+    theObject.Color = "Red";
+}
 
 
+const car = {
+    Name : "Tata",
+    Build : "1992",
+    Color : "Blue"
+}
+
+console.log(car.Color);   // blue
+changeSome(car);
+console.log(car.Color); //red
+
+
+
+
+// What if we pass array as the parameter to the function;
+//it will manupulate the array 
+
+
+function passArray(arr){
+    arr[0] = 100;
+}
+
+const array = [12, 13, 23, 43, 53];
+
+console.log(array);
+
+passArray(array);
+
+console.log(array);

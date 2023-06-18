@@ -3,7 +3,7 @@
 
 
 //Numbers:
-//       (253-1) or be less than -(253-1)
+//       (2^53-1) or be less than -(2^53-1)
 
 //ways to write a number
 

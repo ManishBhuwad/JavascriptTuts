@@ -68,3 +68,17 @@ for(let i = 0; i<set.length; i++){
     }
     
 }
+
+
+
+// Merge two arrays
+
+const numbers = [10, 20, 30, 40];
+const anotherNumbers = [100, 200, 300, 400];
+ 
+for(let i=0; i<anotherNumbers.length; i++){
+    numbers[numbers.length] = anotherNumbers[i];
+}
+
+console.log(numbers);
+console.log(numbers.length);
